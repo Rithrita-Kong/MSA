@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overlay {
+  background: url("/work/Yeos/Image/yeos-inner-header-img.jpg") right no-repeat
+    fixed;
+  background-size: cover;
+}
+
+.container.active .overlay {
+  background-attachment: unset;
+}
+
+.title {
+  font-size: 3.4rem;
+  position: relative;
+  right: 22rem;
+}
+
+/* Content */
+
+.media img {
+  position: relative;
+  left: 3rem;
+}
+
+/* Result */
+
+.result {
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+  display: block;
+  background-color: #f26722;
+}
+
+.result1,
+.result2 {
+  width: 100%;
+  height: auto;
+}
+
+/* .result {
+  height: 120vh;
+  width: 100%;
+  background-color: #f04c24;
+  color: white;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+#results {
+  font-size: 2rem;
+  height: fit-content;
+  border-bottom: 2px solid white;
+  margin: 2rem 0 2rem 3rem;
+}
+
+.result h4 {
+}
+
+.participated,
+.witness,
+.event,
+.fans {
+  position: relative;
+  right: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  width: 90%;
+  height: auto;
+  margin: 12rem 1rem 0 1rem;
+}
+
+.participated {
+}
+
+.witness {
+  width: ;
+}
+
+.participated h1,
+.witness h1,
+.event h1,
+.fans h1 {
+  font-size: 4rem;
+}
+
+.participated h4,
+.witness h4,
+.event h4,
+.fans h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.participated h5,
+.witness h5,
+.event h5,
+.fans h5 {
+  text-align: center;
+  font-size: 1.1rem;
+} */
+
+/* Footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.753);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+footer p {
+  text-align: center;
+}

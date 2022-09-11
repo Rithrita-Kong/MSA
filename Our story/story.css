@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.founder img {
+  display: block;
+  width: 20vw;
+  height: auto;
+  margin: auto 2rem;
+}
+
+.founder img:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
+/* Social Media Icons */
+
+.icon {
+  width: 28px;
+  margin-right: 0.7rem;
+}
+
+.social-media {
+  padding: 2rem 0 0 0;
+}
+
+.social-media p {
+  color: #f26722;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #f26722, #f04c24);
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 1rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  background: orangered;
+  color: black;
+  transition: 0.7s;
+}
+
+.founder {
+  margin: 5vh auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 5vh;
+}
+
+/* Nith */
+
+.nith {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin: 2rem auto;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.nith-text {
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 2rem;
+  color: white;
+  height: 90%;
+}
+
+.nith .nith-text h2,
+h3,
+p {
+  text-align: justify;
+  margin: 10px;
+}
+
+.social-icons {
+  position: relative;
+  margin: 15px 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .nith {
+    display: block;
+    height: fit-content;
+  }
+
+  #nith-img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0 0 0;
+  }
+
+  .nith .nith-text {
+    padding-top: 0;
+  }
+
+  .nith .nith-text h2,
+  h3 {
+    text-align: center;
+  }
+
+  .nith .nith-text p {
+    height: fit-content;
+    font-size: 85%;
+  }
+
+  .social-icons {
+    position: relative;
+    margin: 15px 10px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Aniversary */
+
+.aniversary .img {
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+}
+
+.aniversary img {
+  margin: 2rem;
+  width: 44vw;
+  height: 60vh;
+}
+
+@media screen and (max-width: 500px) {
+  .aniversary .img {
+    padding: 1rem;
+  }
+
+  .aniversary img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 2rem auto;
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.753);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+footer p {
+  text-align: center;
+}
