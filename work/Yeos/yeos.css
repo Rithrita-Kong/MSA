@@ -9,8 +9,7 @@
 }
 
 .overlay {
-  background: url("/work/Yeos/Image/yeos-inner-header-img.jpg") right no-repeat
-    fixed;
+  background: url("./Image/yeos-inner-header-img.jpg") right no-repeat fixed;
   background-size: cover;
 }
 

@@ -9,8 +9,7 @@
 }
 
 .overlay {
-  background: url("/work/AIA/Image/AIA-inner-header-img.jpg") center no-repeat
-    fixed;
+  background: url("./Image/AIA-inner-header-img.jpg") center no-repeat fixed;
   background-size: cover;
 }
 

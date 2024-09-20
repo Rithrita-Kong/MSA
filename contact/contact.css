@@ -26,7 +26,7 @@ textarea,
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/contact/Images/Background.PNG");
+  background-image: url("./Images/Background.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
